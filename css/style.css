@@ -35,7 +35,7 @@ img{
 ul{
     position: fixed;
     width: 100%;
-    height: 55vh;
+    height: 100%;
     background: #2c3e50;
     top: 80px;
     left: -100%;
