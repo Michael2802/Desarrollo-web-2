@@ -140,6 +140,10 @@ h2{
     background-color: #202020;
 }
 
+.services .card p{
+    text-align: justify;
+}
+
 .services a {
     background-color: #202020;
     border:2px solid yellow;
