@@ -13,6 +13,10 @@ body{
     background-color: #202020;
 }
 
+h1,h2,h3,h4,h5,h6{
+    color:yellow;
+}
+
 /*--------------------- Header ---------------------*/
 
 nav{
@@ -157,8 +161,39 @@ h2{
 }
 /*---------------------  MarksCa ---------------------*/
 /*---------------------  Galery  ---------------------*/
+.card{
+    background-color: #202020;
+}
+
+.card-header{
+    background-color: black;
+}
+
+.mb-0{
+    background-color: black;
+}
+
+.mb-0 button{
+    color: yellow;
+}
+
+.mb-0 button:hover{
+    color: #FFE52F;
+    box-shadow: 0 0 0 .2rem rgba(255, 255, 0, 0.8);
+    text-decoration: none;
+}
+
+.mb-0 button:focus{
+    box-shadow: 0 0 0 .2rem rgba(250, 246, 9, 0.555);
+    text-decoration: none;
+}
+
 .figure{
     width: 99%;
+}
+
+.figure-caption{
+    color: yellowgreen;
 }
 /*---------------------     We   ---------------------*/
 /*---------------------  Contact ---------------------*/
