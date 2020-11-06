@@ -202,7 +202,27 @@ h2{
 .figure-caption{
     color: rgb(200,150,0);
 }
+
 /*---------------------     We   ---------------------*/
+#info {
+
+    text-align: center;
+    padding: 20px;
+  }
+  #info .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .info-vo {
+    margin: 20px;
+  }
+  .info-vo img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 3px  solid yellow;
+  }
 /*---------------------  Contact ---------------------*/
 .contenedor{
     width: 100%;
