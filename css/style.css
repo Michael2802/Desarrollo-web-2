@@ -165,7 +165,7 @@ h2{
 /*---------------------  MarksCa ---------------------*/
 .marksCarrusel .carousel-item img{
     width: 80%;
-    height: 300px;
+    height: 250px;
 }
 
 /*---------------------  Galery  ---------------------*/
@@ -206,7 +206,9 @@ h2{
 
 /*---------------------     We   ---------------------*/
 
-
+.google_map{
+    width: 800%;
+}
 #info {
     background: #e9f355;
     text-align: center;
@@ -437,9 +439,6 @@ h2{
         width:50%;
         margin-right:2%;
         float: left;
-    }
-    .google_map iframe{
-       width:100%;
     }
     .flexbox-container{
         display: -ms-flex;
