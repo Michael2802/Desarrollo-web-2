@@ -1,3 +1,0 @@
-Swale.fire({
-    title:"bienvenidos"
-});

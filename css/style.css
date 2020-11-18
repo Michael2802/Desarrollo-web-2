@@ -1,3 +1,23 @@
+
+.contenedor-alert{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.info-bateria img{
+    width: 150px;
+    height: 150px;
+}
+.info-bateria{
+    margin: 20px;
+}
+.info-bateria h5{
+    color: white;
+}
+.title-baterias{
+    color:yellow;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -171,8 +191,8 @@ h2{
 }
 
 .marksCarrusel .carousel-item img{
-    height: 250px;
-    margin: 1% auto;
+    height: 200px;
+    margin: 5% auto;
 }
 
 /*---------------------  Galery  ---------------------*/
@@ -286,7 +306,7 @@ h2{
         padding: 12px 30px;
         border: transparent;
         background:yellow;
-        color: black;
+        color: #090A0B;;
         cursor: pointer;
         float: right;
         border-radius: 10%;
@@ -294,7 +314,7 @@ h2{
     /*---------------------  footer---------------------*/
     footer {
         width: 100%;
-        background: black;
+        background: #090A0B;
         color: white;
         max-width: 1650px;
         margin: auto;
@@ -403,7 +423,7 @@ h2{
     }
     .carousel-item img{
         width: 100%;
-        height: 550px;
+        height: 650px;
     }
 
     /*--------------------- Welcome  ---------------------*/
@@ -447,8 +467,8 @@ h2{
     /*---------------------  MarksCa ---------------------*/
     
     .marksCarrusel .carousel-item img{
-        height: 300px;
-        width: 300px !important;
+        height: 250px;
+        width: 500px !important;
     }
     /*---------------------  Galery  ---------------------*/
     .figure{
