@@ -229,6 +229,7 @@ h2{
 
 .figure-caption{
     color: rgb(200,150,0);
+    font-size: 20px;
 }
 
 /*---------------------     We   ---------------------*/
@@ -359,6 +360,22 @@ h2{
         margin-top: 10px;
         margin-left: 20px;
         max-width: 140px;
+      }
+
+      .column--informacion .row{
+          justify-content: left;
+      }
+
+      .fila{
+          width: 95%;
+      }
+
+      .column--informacion .row img{
+          margin:1% 5% 1% 2%;
+      }
+
+      .column--informacion .row p{
+        margin:auto 1%;
       }
    
 
@@ -648,4 +665,14 @@ h2{
       .row2 {
           margin-right: 100px;
       }
+
+      .column--informacion .row{
+        justify-content: left;
+        width: 45%;
+    }
+
+    .fila{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
