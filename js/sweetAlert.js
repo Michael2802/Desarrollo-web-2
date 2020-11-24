@@ -66,3 +66,13 @@ function servicios2() {
     
    
 } 
+const getSwal = () => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve(Swal);
+        }, 1500);
+    }); 
+}
+
+getSwal()
+    .then((Swal) => console.log(Swal));
