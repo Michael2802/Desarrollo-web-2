@@ -18,7 +18,7 @@ Swal.fire({
     showCloseButton:true,
     CloseButtonArialLabel: 'Cerrar esta alerta',
 
-    imageUrl:'images/img/bateria.PNG',
+    imageUrl:'https://github.com/Michael2802/VoRepuestos/blob/main/images/img/bateria.png?raw=true',
     imageWidth:'100%'
 
 
@@ -33,7 +33,7 @@ function servicios1() {
         width:'70%', 
         padding:'1rem',
         background:'black' ,
-        html:'<div class="contenedor-alert"><div class="info-bateria"><img src="images/baterias/bosch.PNG"><h5>Batería Bosch S5</h5><p>Garantia 2 meses</p></div><div class="info-bateria"><img src="images/baterias/bosch6.PNG"><h5>Batería Bosch S4</h5><p>Garantia 4 meses</p></div><div class="info-bateria"><img src="images/baterias/boschs3.PNG"><h5>Batería Bosch S3</h5><p>Garantia 8 meses</p></div><div class="info-bateria"><img src="images/baterias/boschs5.PNG"><h5>Batería Bosch S2</h5><p>Garantia 6 meses</p></div>',
+        html:'<div class="contenedor-alert"><div class="info-bateria"><img src="https://github.com/Michael2802/VoRepuestos/blob/main/images/baterias/bosch.png?raw=true"><h5>Batería Bosch S5</h5><p>Garantia 2 meses</p></div><div class="info-bateria"><img src="images/baterias/bosch6.png"><h5>Batería Bosch S4</h5><p>Garantia 4 meses</p></div><div class="info-bateria"><img src="images/baterias/boschs3.png"><h5>Batería Bosch S3</h5><p>Garantia 8 meses</p></div><div class="info-bateria"><img src="images/baterias/boschs5.png"><h5>Batería Bosch S2</h5><p>Garantia 6 meses</p></div>',
         allowOutsideClick:false,
         showConfirmButton: false,
         showCloseButton: true,
@@ -66,13 +66,3 @@ function servicios2() {
     
    
 } 
-const getSwal = () => {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            resolve(Swal);
-        }, 1500);
-    }); 
-}
-
-getSwal()
-    .then((Swal) => console.log(Swal));
