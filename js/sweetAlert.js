@@ -18,7 +18,7 @@ Swal.fire({
     showCloseButton:true,
     CloseButtonArialLabel: 'Cerrar esta alerta',
 
-    imageUrl:'https://github.com/Michael2802/VoRepuestos/blob/main/images/img/bateria.png?raw=true',
+    imageUrl:'images/img/bateria.png',
     imageWidth:'100%'
 
 
@@ -33,7 +33,7 @@ function servicios1() {
         width:'70%', 
         padding:'1rem',
         background:'black' ,
-        html:'<div class="contenedor-alert"><div class="info-bateria"><img src="https://github.com/Michael2802/VoRepuestos/blob/main/images/baterias/bosch.png?raw=true"><h5>Batería Bosch S5</h5><p>Garantia 2 meses</p></div><div class="info-bateria"><img src="images/baterias/bosch6.png"><h5>Batería Bosch S4</h5><p>Garantia 4 meses</p></div><div class="info-bateria"><img src="images/baterias/boschs3.png"><h5>Batería Bosch S3</h5><p>Garantia 8 meses</p></div><div class="info-bateria"><img src="images/baterias/boschs5.png"><h5>Batería Bosch S2</h5><p>Garantia 6 meses</p></div>',
+        html:'<div class="contenedor-alert"><div class="info-bateria"><img src="images/baterias/bosch.png"><h5>Batería Bosch S5</h5><p>Garantia 2 meses</p></div><div class="info-bateria"><img src="images/baterias/bosch6.png"><h5>Batería Bosch S4</h5><p>Garantia 4 meses</p></div><div class="info-bateria"><img src="images/baterias/boschs3.png"><h5>Batería Bosch S3</h5><p>Garantia 8 meses</p></div><div class="info-bateria"><img src="images/baterias/boschs5.png"><h5>Batería Bosch S2</h5><p>Garantia 6 meses</p></div>',
         allowOutsideClick:false,
         showConfirmButton: false,
         showCloseButton: true,
@@ -53,7 +53,7 @@ function servicios2() {
         width:'70%', 
         padding:'1rem',
         background:'black' ,
-        html:'<div class="contenedor-alert"><div class="info-bateria"><img src="images/baterias/mc1.PNG"><h5>Batería Bosch S5</h5><p>Garantia 2 meses</p></div><div class="info-bateria"><img src="images/baterias/mc2.PNG"><h5>Batería Bosch S4</h5><p>Garantia 4 meses</p></div><div class="info-bateria"><img src="images/baterias/mc3.PNG"><h5>Batería Bosch S3</h5><p>Garantia 8 meses</p></div><div class="info-bateria"><img src="images/baterias/mc4.jpg"><h5>Batería Bosch S2</h5><p>Garantia 6 meses</p></div><div class="info-bateria"><img src="images/baterias/mc5.PNG"><h5>Batería Bosch S5</h5><p>Garantia 2 meses</p></div><div class="info-bateria"><img src="images/baterias/mc6.PNG"><h5>Batería Bosch S5</h5><p>Garantia 2 meses</p></div><div class="info-bateria"><img src="images/baterias/mc7.PNG"><h5>Batería Bosch S5</h5><p>Garantia 2 meses</p></div><div class="info-bateria"><img src="images/baterias/mc8.PNG"><h5>Batería Bosch S5</h5><p>Garantia 2 meses</p></div>',
+        html:'<div class="contenedor-alert"><div class="info-bateria"><img src="images/baterias/mc1.png"><h5>Batería Bosch S5</h5><p>Garantia 2 meses</p></div><div class="info-bateria"><img src="images/baterias/mc2.png"><h5>Batería Bosch S4</h5><p>Garantia 4 meses</p></div><div class="info-bateria"><img src="images/baterias/mc3.png"><h5>Batería Bosch S3</h5><p>Garantia 8 meses</p></div><div class="info-bateria"><img src="images/baterias/mc4.jpg"><h5>Batería Bosch S2</h5><p>Garantia 6 meses</p></div><div class="info-bateria"><img src="images/baterias/mc5.png"><h5>Batería Bosch S5</h5><p>Garantia 2 meses</p></div><div class="info-bateria"><img src="images/baterias/mc6.png"><h5>Batería Bosch S5</h5><p>Garantia 2 meses</p></div><div class="info-bateria"><img src="images/baterias/mc7.png"><h5>Batería Bosch S5</h5><p>Garantia 2 meses</p></div><div class="info-bateria"><img src="images/baterias/mc8.png"><h5>Batería Bosch S5</h5><p>Garantia 2 meses</p></div>',
         allowOutsideClick:false,
         showConfirmButton: false,
         showCloseButton: true,
