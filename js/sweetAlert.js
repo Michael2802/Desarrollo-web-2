@@ -1,6 +1,6 @@
 Swal.fire({
     title:'¡Publicidad!',
-    text:'Recibimos tu bateria por parte de pago de la vieja',
+    text:'Recibimos tu bateria usada en parte de pago',
     icon:undefined,
     footer:'anuncio',
     width:'300px',
@@ -25,8 +25,6 @@ Swal.fire({
 })
 
 
-
-
 function servicios1() {
     Swal.fire({
         title: 'Bateria Bosch',
@@ -44,12 +42,11 @@ function servicios1() {
         }
     });
     
-   
 } 
 function servicios2() {
     
     Swal.fire({
-        title: 'Bateria Bosch',
+        title: 'Bateria Mac',
         width:'70%', 
         padding:'1rem',
         background:'black' ,
@@ -66,3 +63,16 @@ function servicios2() {
     
    
 } 
+
+function mostrarmensaje() {
+    Swal.fire({
+        icon:"success",
+        title:"Enviado!",
+        text:"!Gracias por confiar, nos comunicaremos con usted lo mas pronto posible!",
+        backdrop:"true",
+        timer:"3000",
+        showConfirmButton:false
+       
+        
+    });
+}

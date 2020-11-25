@@ -45,6 +45,22 @@ body::-webkit-scrollbar-thumb{
     }
 
 }
+/*#loader{
+    height: 1500px;
+    width: 1500px;
+    background-color: #FFE52F;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}   
+#loader img{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}*/
 
 /*---------------------  Estilos Base ---------------------*/
 *{
@@ -332,7 +348,7 @@ h2{
     .formulario textarea:focus{
         border: 3px solid yellow;
     }
-    .formulario button{
+    .formulario #button{
         padding: 12px 30px;
         border: transparent;
         background:yellow;

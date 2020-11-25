@@ -15,7 +15,10 @@
 </head>
 
 <body>
-  <a href="https://api.whatsapp.com/send?phone=+573507318986&text=Bienvenidos%20AKAIROS"
+  <!--<div id="loader">
+    <img src="images/740.gif" width="30%"/>
+  </div>-->
+    <a href="https://api.whatsapp.com/send?phone=+573507318986&text=¿Pregunta por nuestras ofertas!?"
     class="float animate__animated animate__bounce animate__slower animate__infinite" target="_blank">
     <i class="fa fa-whatsapp my-float"></i>
   </a>
@@ -213,8 +216,8 @@
                 <figcaption class="figure-caption text-right">Bateria Polar TAB.</figcaption>
               </figure>
               <figure class="figure">
-                <img src="images/galeria/prod7.JPG" class="figure-img img-fluid rounded" alt="Bateria Bosch S4">
-                <figcaption class="figure-caption text-right">Bateria Bosch S4.</figcaption>
+                <img src="images/galeria/magana.jpeg" class="figure-img img-fluid rounded" alt="Bateria Bosch S4">
+                <figcaption class="figure-caption text-right">Bateria Magna.</figcaption>
               </figure>
               <figure class="figure">
                 <img src="images/galeria/prod23.JPG" class="figure-img img-fluid rounded" alt="Bateria Bosch S5">
@@ -230,8 +233,8 @@
                 <figcaption class="figure-caption text-right">Bateria Coexito Evolution.</figcaption>
               </figure>
               <figure class="figure">
-                <img src="images/galeria/prod22.JPG" class="figure-img img-fluid rounded" alt="Bateria Bosch ST">
-                <figcaption class="figure-caption text-right">Bateria Bosch ST.</figcaption>
+                <img src="images/galeria/hankook.jpeg" class="figure-img img-fluid rounded" alt="Bateria Bosch ST">
+                <figcaption class="figure-caption text-right">Bateria Hankook SMF.</figcaption>
               </figure>
               <figure class="figure">
                 <img src="images/galeria/prod24.JPG" class="figure-img img-fluid rounded" alt="Bateria Extrema Titanio">
@@ -317,11 +320,11 @@
                 <figcaption class="figure-caption text-right">Total parts.</figcaption>
               </figure>
               <figure class="figure">
-                <img src="images/galeria/prod23.JPG" class="figure-img img-fluid rounded" alt="Optima Batteries">
+                <img src="images/galeria/pastillas.jpeg" class="figure-img img-fluid rounded" alt="Optima Batteries">
                 <figcaption class="figure-caption text-right">Optima Batteries.</figcaption>
               </figure>
               <figure class="figure">
-                <img src="images/galeria/prod1.JPG" class="figure-img img-fluid rounded" alt="Otros">
+                <img src="images/galeria/pastillas2.jpeg" class="figure-img img-fluid rounded" alt="Otros">
                 <figcaption class="figure-caption text-right">Otros.</figcaption>
               </figure>
               <figure class="figure">
@@ -351,6 +354,21 @@
               </figure>
               <figure class="figure">
                 <img src="images/Otros Productos/WhatsApp Image 2020-11-17 at 8.22.46 PM (1).jpeg"
+                  class="figure-img img-fluid rounded" alt="Otros">
+                <figcaption class="figure-caption text-right">Otros.</figcaption>
+              </figure>
+              <figure class="figure">
+                <img src="images/galeria/pastillas3.jpeg"
+                  class="figure-img img-fluid rounded" alt="Otros">
+                <figcaption class="figure-caption text-right">Otros.</figcaption>
+              </figure>
+              <figure class="figure">
+                <img src="images/galeria/pastillas4.jpeg"
+                  class="figure-img img-fluid rounded" alt="Otros">
+                <figcaption class="figure-caption text-right">Otros.</figcaption>
+              </figure>
+              <figure class="figure">
+                <img src="images/galeria/pastillas5.jpeg"
                   class="figure-img img-fluid rounded" alt="Otros">
                 <figcaption class="figure-caption text-right">Otros.</figcaption>
               </figure>
@@ -488,12 +506,13 @@
 
           </div>
 
-          <form action="" method="GET" class="formulario">
-            <input type="text" name="nombre" placeholder="Nombre" id="nombre">
+          <form action="enviar.php" method="GET" class="formulario">
+            <input type="text" name="nombre" placeholder="Nombre y Apellido" id="nombre">
+            <input type="text" name="telefono" placeholder="Telefono" id="telefono">
             <input type="text" name="correo" placeholder="Correo Electrico" id="correo">
             <input type="text" name="asunto" placeholder="Asunto" id="asunto">
             <textarea name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
-            <button type="button  ">Enviar</button>
+            <input type="submit" value="Enviar" id="button" onclick="mostrarmensaje()" >
 
           </form>
         </div>
@@ -529,7 +548,7 @@
             <p>Nequi</p>
           </div>
           <div class="row">
-            <img src="https://play-lh.googleusercontent.com/robMD44112u3HbbXPBfIpH1RieW03S9rTGUW3xjFY4GLFaRNL2l1HPlQZj0fJAEv0n0" alt="">
+            <img src="images/Imagen2.png" alt="">
             <p>DaviPlata</p>
           </div>
 
@@ -544,7 +563,7 @@
         </div>
         <div class="row">
           <img src="https://www.flaticon.com/svg/static/icons/svg/2111/2111463.svg">
-          <a href="">Siguenos en Instagram</a>
+          <a href="https://www.instagram.com/v.o_repuestos_1/">Siguenos en Instagram</a>
 
         </div>
         <div class="row">
@@ -572,6 +591,20 @@
     <hr style="background: aliceblue;"><br>
     <h5 style="text-align: center;">Derechos Reservados © | V.O Repuestos </h5>
   </footer>
+ <!-- <script type="text/javascript">
+  var loader = document.getElementById("loader");
+
+  window.addEventListener("load",function(){
+
+    loader.style.height = "100px";
+
+    loader.style.width = "100px";
+
+    loader.style.borderRadius = "50%";
+
+    loader.style.visibility = "hidden";
+  });-->
+  </script>*/
   <script src="js/animacion.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
   <script src="js/sweetAlert.js"></script>
